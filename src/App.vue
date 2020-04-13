@@ -3,8 +3,8 @@
     <Banner />
     <div class="banner">
       <div class="banner__img">
-        <img src="./assets/covid.jpg" sizes="(max-width: 600px) 480px,
-            800px" alt="covid">
+        <!-- <img src="./assets/covid.jpg" sizes="(max-width: 600px) 480px,
+            800px" alt="covid"> -->
       </div>
       <div class="banner__text">
         <h1>Welcome to the COVID-19 response web app</h1>
