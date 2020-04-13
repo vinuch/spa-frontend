@@ -21,67 +21,76 @@
     <form action="">
       <h4>Region details</h4>
       <div>
-        <label for="region-name">Region Name</label><br>
+        <label for="region-name">Region Name<br>
         <input type="text" name="region-name" data="data-population" placeholder="Region Name"
         v-model="input.region.name"
         required>
+        </label>
       </div>
       <div>
-        <label for="regionAvgAge">Region Average Age</label><br>
+        <label for="regionAvgAge">Region Average Age<br>
         <input type="text" name="regionAvgAge" data="data-population"
         placeholder="Region Average Age"
         v-model="input.region.avgAge"
         required>
+        </label>
       </div>
       <div>
-        <label for="regionAvgIncome">Region Average Daily Income (USD)</label><br>
+        <label for="regionAvgIncome">Region Average Daily Income (USD)<br>
         <input type="text" name="regionAvgIncome" data="data-population"
         placeholder="Region Average Daily Income (USD)"
         v-model="input.region.avgDailyIncomeInUSD"
         required>
+        </label>
       </div>
       <div>
-        <label for="regionAvgIncomePopulation">Region Average Income Population</label><br>
+        <label for="regionAvgIncomePopulation">Region Average Income Population<br>
         <input type="text" name="regionAvgIncomePopulation" data="data-population"
         placeholder="Region Average Income population"
         v-model="input.region.avgDailyIncomeInPopulation"
         required>
+        </label>
       </div>
       <h4>Other Information</h4>
       <div>
-        <label for="periodType">Period Type</label><br>
+        <label for="periodType">Period Type<br>
         <select name="periodType" data="data-period-type" v-model="input.periodType" required>
           <option value="Months">Months</option>
           <option value="Weeks">Weeks</option>
           <option value="Days">Days</option>
         </select>
+        </label>
       </div>
       <div>
-        <label for="poulation">Time to ELapse</label><br>
+        <label for="poulation">Time to ELapse<br>
         <input type="number" name="timeToElapse" data="data-time-to-elapse"
         placeholder="Time to elapse "
         v-model="input.timeToElapse"
         required>
+        </label>
       </div>
       <div>
-        <label for="reportedCases">Reported Cases</label><br>
+        <label for="reportedCases">Reported Cases<br>
         <input type="number" name="reportedCases" data="data-reported-cases"
         placeholder="Reported Cases"
         v-model="input.reportedCases"
         required>
+        </label>
       </div>
       <div>
-        <label for="poulation">Population</label><br>
+        <label for="poulation">Population<br>
         <input type="number" name="population" data="data-population" placeholder="Population"
         v-model="input.population"
         required>
+        </label>
       </div>
       <div>
-        <label for="totalHospitalBeds">Total hospital beds</label><br>
+        <label for="totalHospitalBeds">Total hospital beds<br>
         <input type="number" name="totalHospitalBeds" data="data-total-hospital-beds"
         placeholder="Total hospital beds"
         v-model="input.totalHospitalBeds"
         required>
+        </label>
       </div>
       <button data="data-go-estimate" class="btn-submit" @click.prevent="estimate">
         Get Estimate</button>
@@ -140,7 +149,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* text-align: center; */
-  color: #fff;
+  color: #0a0505;
   margin-top: 60px;
 }
 .banner {
