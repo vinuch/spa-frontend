@@ -3,7 +3,7 @@
     <Banner />
     <div class="banner">
       <div class="banner__img">
-        <img src="https://res.cloudinary.com/vincecloud/image/upload/v1586810736/covid_u1x5wj.jpg" alt="covid">
+        <img src="./assets/covid.jpg" alt="covid">
       </div>
       <div class="banner__text">
         <h1>Welcome to the COVID-19 response web app</h1>
