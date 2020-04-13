@@ -165,7 +165,7 @@ body {
   flex-basis: 100%;
 }
 .banner__img img{
-  width: 100%;
+  width: 25rem;
 }
 input, select {
   width: 80%;
@@ -188,5 +188,9 @@ input, select {
   .banner__img {
     flex-basis: 40%;
   }
+  .banner__img img{
+    width: 35rem;
+  }
+  
 }
 </style>
