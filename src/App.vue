@@ -163,6 +163,10 @@ body {
 }
 .banner__img {
   flex-basis: 100%;
+  height: 350px;
+  background-image: url("./assets/covid.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .banner__img img{
   width: 25rem;
