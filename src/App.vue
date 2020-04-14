@@ -54,13 +54,12 @@
       </div>
       <h4>Other Information</h4>
       <div>
-        <label for="periodType">Period Type<br>
+        <label for="periodType">Period Type</label><br>
         <select name="periodType" data-period-type v-model="input.periodType" required>
-          <option value="months">Months</option>
+          <option value="days" selected>Days</option>
           <option value="weeks">Weeks</option>
-          <option value="days">Days</option>
+          <option value="months">Months</option>
         </select>
-        </label>
       </div>
       <div>
         <label for="timeToElapse">Time to ELapse<br>
