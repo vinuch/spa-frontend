@@ -56,9 +56,9 @@
       <div>
         <label for="periodType">Period Type<br>
         <select name="periodType" data-period-type v-model="input.periodType" required>
-          <option value="Months">Months</option>
-          <option value="Weeks">Weeks</option>
-          <option value="Days">Days</option>
+          <option value="months">Months</option>
+          <option value="weeks">Weeks</option>
+          <option value="days">Days</option>
         </select>
         </label>
       </div>
